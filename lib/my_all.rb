@@ -7,4 +7,5 @@ def my_all?(collection)
       new_array << collection[element]
     end
   }
+  new_array
 end
