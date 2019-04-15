@@ -5,8 +5,9 @@ def my_all?(collection)
   collection.each {|element|
     if yield(element) == true
       new_array << element
-      binding.pry
+
     end
+          binding.pry
   }
   new_array == collection ? true : false
   #binding.pry
