@@ -7,5 +7,5 @@ def my_all?(collection)
       new_array << element
     end
   }
-  new_array
+  if new_array == collection ? true : false
 end
