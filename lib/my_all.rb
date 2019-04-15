@@ -8,4 +8,5 @@ def my_all?(collection)
     end
   }
   if new_array == collection ? true : false
+    binding.pry
 end
