@@ -6,7 +6,6 @@ def my_all?(collection)
     if yield(element)
       new_array << element
     end
-          binding.pry
   }
   new_array == collection ? true : false
   #binding.pry
