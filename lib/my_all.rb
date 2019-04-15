@@ -6,5 +6,5 @@ def my_all?(collection)
     if yield[element] == true
       new_array << collection[element]
     end
-    }
+  }
 end
