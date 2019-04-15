@@ -3,9 +3,8 @@ require 'pry'
 def my_all?(collection)
   new_array = []
   collection.each {|element|
-    if yield(element) == true
+    if yield(element)
       new_array << element
-
     end
           binding.pry
   }
